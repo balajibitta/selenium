@@ -1,0 +1,2 @@
+INFO  - 2018-10-26 12:56:21.348; com.selenium.log4j.GmailTest; Browser is launched
+INFO  - 2018-10-26 12:56:25.241; com.selenium.log4j.GmailTest; URL is entered as : https://www.gmail.com

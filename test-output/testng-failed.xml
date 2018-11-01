@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.Scripts.Selenium.GmailTest">
+        <methods>
+          <include name="gmailTest"/>
+          <include name="beforeTCExecution"/>
+        </methods>
+      </class> <!-- com.Scripts.Selenium.GmailTest -->
+      <class name="com.Scripts.Selenium.FbTest">
+        <methods>
+          <include name="initiateExtObj"/>
+          <include name="AFTERTCExecution"/>
+          <include name="openBrowser"/>
+          <include name="beforeTCExecution"/>
+        </methods>
+      </class> <!-- com.Scripts.Selenium.FbTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
